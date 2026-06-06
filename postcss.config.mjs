@@ -1,0 +1,31 @@
+{
+  "name": "bone-ui",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev --turbopack",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "axios": "^1.12.2",
+    "chart.js": "^4.5.0",
+    "daisyui": "^5.0.46",
+    "glfx": "^0.0.4",
+    "lucide-react": "^0.525.0",
+    "next": "15.4.10",
+    "react": "19.1.0",
+    "react-chartjs-2": "^5.3.0",
+    "react-dom": "19.1.0",
+    "styled-components": "^6.1.19"
+  },
+  "devDependencies": {
+    "@tailwindcss/postcss": "^4.1.11",
+    "@types/node": "^20",
+    "@types/react": "^19",
+    "@types/react-dom": "^19",
+    "tailwindcss": "^4.1.11",
+    "typescript": "^5"
+  }
+}
