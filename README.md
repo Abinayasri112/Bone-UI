@@ -1,41 +1,24 @@
-# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+This is a Next.js project bootstrapped with create-next-app.
 
-# dependencies
-/node_modules
-/.pnp
-.pnp.*
-.yarn/*
-!.yarn/patches
-!.yarn/plugins
-!.yarn/releases
-!.yarn/versions
+Getting Started
+First, run the development server:
 
-# testing
-/coverage
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+# or
+bun dev
+Open http://localhost:3000 with your browser to see the result.
 
-# next.js
-/.next/
-/out/
+You can start editing the page by modifying app/page.tsx. The page auto-updates as you edit the file.
 
-# production
-/build
+This project uses next/font to automatically optimize and load Geist, a new font family for Vercel.
 
-# misc
-.DS_Store
-*.pem
+Env files needed
+the keys values are
 
-# debug
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
-.pnpm-debug.log*
-
-# env files (can opt-in for committing if needed)
-.env*
-
-# vercel
-.vercel
-
-# typescript
-*.tsbuildinfo
-next-env.d.ts
+ROBOFLOW_API_KEY=kGswFHIRh87wAxSQCcxt
+ROBOFLOW_MODEL=spine-0lruq
+ROBOFLOW_VERSION=2
